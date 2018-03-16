@@ -17,7 +17,7 @@ Starting script:
 ## Citation
 If you use this repository, please cite this paper:
 
->  Kelwin Fernandes, Davide Chicco, Jaime S. Cardoso, and Jessica Fernandes, "Supervised deep learning embeddings for the prediction of cervical cancer diagnosis", *PeerJ Computer Science*, 2018.
+>  Kelwin Fernandes, Davide Chicco, Jaime S. Cardoso, and Jessica Fernandes, "Supervised deep learning embeddings for the prediction of cervical cancer diagnosis", *PeerJ Computer Science*, 2018. *In press*.
 
 ## Contacts
 For scientific questions, or for questions related to the methods implementation, please contact Kelwin Fernandes at <[kafc@inesctec.pt](mailto:kafc@inesctec.pt)>
