@@ -1,8 +1,6 @@
-#  Supervised deep learning embeddings for the prediction of cervical cancer diagnosis
+#  Supervised deep learning embeddings for the prediction of cervical cancer diagnosis (Python 3.5 version)
 
 Machine learning and dimensionality reduction methods for cervical cancer screening processing
-
-Python 3.5 version
 
 ## Installation
 To run the scripts, you need to have installed:
