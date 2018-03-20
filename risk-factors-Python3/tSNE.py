@@ -14,7 +14,7 @@ from models import MultitaskEmbedding
 os.sys.setrecursionlimit(100000)
 
 skf = StratifiedKFold(10, shuffle=False, random_state=42)
-df = pd.read_csv('data/cervical_arranged_NORM.csv')
+df = pd.read_csv('../data/cervical_arranged_NORM.csv')
 
 all_procedures = set(['Hinselmann', 'Schiller', 'Citology'])
 gt_labels = ['Biopsy']

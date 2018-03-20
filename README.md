@@ -5,6 +5,8 @@ Machine learning and dimensionality reduction methods for cervical cancer data s
 ## Installation
 To run the scripts, you need to have installed:
 * Python 2.7 or Python 3.5
+* pip or pip3
+* pandas
 * Theano
 * Keras
 * TensorFlow
@@ -12,9 +14,12 @@ To run the scripts, you need to have installed:
 ### Installation instructions (Python 2.7)
 How to install the Python 2.7 libraries on Linux Ubuntu:
 
+`sudo apt-get -y install python-pip`
 
 ### Installation instructions (Python 3.5)
 How to install the Python 3.5 libraries on Linux Ubuntu:
+
+`sudo apt-get install python3-pip`
 
 `sudo -H pip3 install scikit-learn`
 
@@ -23,6 +28,8 @@ How to install the Python 3.5 libraries on Linux Ubuntu:
 `sudo -H pip3 install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip`
 
 `sudo -H pip3 install tensorflow==1.5`
+
+`sudo -H pip3 install keras`
 
 Set keras to use Theano as a backend instead of TensorFlow:
 
