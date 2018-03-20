@@ -16,6 +16,24 @@ How to install the Python 2.7 libraries on Linux Ubuntu:
 
 `sudo apt-get -y install python-pip`
 
+`sudo -H pip install scikit-learn`
+
+`sudo -H pip install --upgrade https://github.com/Theano/Theano/archive/master.zip`
+
+`sudo -H pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip`
+
+`sudo -H pip install tensorflow==1.5`
+
+`sudo -H pip install keras`
+
+Set keras to use Theano as a backend instead of TensorFlow:
+
+`sudo vi ~/.keras/keras.json`
+
+(change backend from `tensorflow` to `theano`)
+
+`sudo -H pip install pandas`
+
 ### Installation instructions (Python 3.5)
 How to install the Python 3.5 libraries on Linux Ubuntu:
 
