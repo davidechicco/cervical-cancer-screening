@@ -4,18 +4,45 @@ Machine learning and dimensionality reduction methods for cervical cancer data s
 
 ## Installation
 To run the scripts, you need to have installed:
-* Python 3.5
+* Python 2.7 or Python 3.5
 * Theano
 * Keras
 * TensorFlow
 
+How to install the Python 3.5 libraries on Linux Ubuntu:
+
+`sudo -H pip3 install scikit-learn`
+
+`sudo -H pip3 install --upgrade https://github.com/Theano/Theano/archive/master.zip`
+
+`sudo -H pip3 install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip`
+
+`sudo -H pip3 install tensorflow==1.5`
+
+Set keras to use Theano as a backend instead of TensorFlow:
+
+`sudo vi ~/.keras/keras.json`
+
+(change backend from `tensorflow` to `theano`)
+
 ## Instructions
+
+### Python 2.7
 Starting script:
 
-`python test_deep_architectures.py`
+`cd risk-factors-Python2`
 
-## Citation
-If you use this repository, please cite this paper:
+`python2 test_deep_architectures.py`
+
+### Python 3.5
+Starting script:
+
+`cd risk-factors-Python3`
+
+`python3 test_deep_architectures.py`
+
+## Method description and citation
+If you use this repository, or you want to know more about the implemented methods, please read and cite this paper:
 
 >  Kelwin Fernandes, Davide Chicco, Jaime S. Cardoso, and Jessica Fernandes, "Supervised deep learning embeddings for the prediction of cervical cancer diagnosis", 2018. *Under revision*.
 
