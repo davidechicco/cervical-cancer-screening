@@ -1,4 +1,4 @@
-#  Supervised deep learning embeddings for the prediction of cervical cancer diagnosis (Python 3.5 version)
+#  Supervised deep learning embeddings for the prediction of cervical cancer diagnosis
 
 Machine learning and dimensionality reduction methods for cervical cancer data screening processing and diagnosis prediction.
 
@@ -9,6 +9,11 @@ To run the scripts, you need to have installed:
 * Keras
 * TensorFlow
 
+### Installation instructions (Python 2.7)
+How to install the Python 2.7 libraries on Linux Ubuntu:
+
+
+### Installation instructions (Python 3.5)
 How to install the Python 3.5 libraries on Linux Ubuntu:
 
 `sudo -H pip3 install scikit-learn`
@@ -25,16 +30,14 @@ Set keras to use Theano as a backend instead of TensorFlow:
 
 (change backend from `tensorflow` to `theano`)
 
-## Instructions
-
-### Python 2.7
+## Execution instructions (Python 2.7)
 Starting script:
 
 `cd risk-factors-Python2`
 
 `python2 test_deep_architectures.py`
 
-### Python 3.5
+## Execution instructions (Python 3.5)
 Starting script:
 
 `cd risk-factors-Python3`
