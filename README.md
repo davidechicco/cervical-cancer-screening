@@ -70,11 +70,12 @@ Starting script:
 `python3 test_deep_architectures.py`
 
 ## Method description and citation
-If you use this repository, or you want to know more about the implemented methods, please read and cite this paper:
+If you use this repository, or you want to know more about the implemented methods, please read this paper:
 
->  Kelwin Fernandes, Davide Chicco, Jaime S. Cardoso, and Jessica Fernandes, "Supervised deep learning embeddings for the prediction of cervical cancer diagnosis", 2018. *Under revision*.
+>  Kelwin Fernandes, Davide Chicco, Jaime S. Cardoso, and Jessica Fernandes, "Supervised deep learning embeddings for the prediction of cervical cancer diagnosis", PeerJ Computer Science 4:e154, 2018. [https://doi.org/10.7717/peerj-cs.154](https://doi.org/10.7717/peerj-cs.154)
+
 
 ## Contacts
 For scientific questions, or for questions related to the method implementation, please contact Kelwin Fernandes at <[kafc@inesctec.pt](mailto:kafc@inesctec.pt)>
 
-For questions related to this Python 3.5 implementation, please write to Davide Chicco at <[davide.chicco@gmail.com](mailto:davide.chicco@gmail.com)>
+For questions related to this Python 3.5 implementation, please write to Davide Chicco at <[davidechicco@davidechicco.it](mailto:davidechicco@davidechicco.it)>
