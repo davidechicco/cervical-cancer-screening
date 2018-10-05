@@ -69,7 +69,7 @@ Starting script:
 
 `python3 test_deep_architectures.py`
 
-## Method description and citation
+## Reference and method description
 If you use this repository, or you want to know more about the implemented methods, please read this paper:
 
 >  Kelwin Fernandes, Davide Chicco, Jaime S. Cardoso, and Jessica Fernandes, "Supervised deep learning embeddings for the prediction of cervical cancer diagnosis", PeerJ Computer Science 4:e154, 2018. [https://doi.org/10.7717/peerj-cs.154](https://doi.org/10.7717/peerj-cs.154)
